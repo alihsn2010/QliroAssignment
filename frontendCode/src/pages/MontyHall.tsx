@@ -6,6 +6,10 @@ import { IResult, IResultInitialValues } from '../Interfaces'
 
 const MontyHall: React.FC = () => {
   const [result, setResults] = useState<IResult>(IResultInitialValues)
+  
+  
+  // git testing by SAH
+  // let testResult ='' 
 
   const saveResults = (data: IResult) => {
     setResults(data)
